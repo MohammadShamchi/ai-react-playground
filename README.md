@@ -1,84 +1,116 @@
-# 🎨 AI-Ready React Canvas
+# AI React Playground 🚀
 
-The perfect playground for testing AI-generated React components. Built specifically for developers using ChatGPT, Claude, or other AI assistants to prototype and experiment with React components.
+A simple, modern React playground for testing and showcasing React components and pages. Perfect for testing AI-generated React code or building your own components.
 
-## 🤖 Why This Template?
+## Features ✨
 
-Ever got a component from ChatGPT or Claude but struggled to test it? This template is your solution:
-- 🔌 **Plug-and-Play**: Just paste AI-generated components and see them live
-- 🎯 **AI-Friendly Structure**: Matches the common structure AI tools generate
-- 🛠️ **Quick Testing**: Generate new components/pages with one command
-- 📱 **Visual Preview**: Instantly see your components in a clean, responsive layout
+- 🎯 **Simple Setup**: Just clone and run the setup script
+- 🎨 **Modern Stack**: React + TypeScript + Vite + Tailwind CSS
+- 🔧 **Component Generator**: Create new components with one command
+- 📱 **Live Preview**: See your components in action instantly
+- 📝 **Auto-Documentation**: Components are automatically added to the sidebar
+- 🎭 **Page Support**: Create and test full pages
+- 🛠️ **Developer Friendly**: Hot reload, TypeScript support, and more
 
-## ✨ Features
+## Quick Start 🏃‍♂️
 
-- ⚡️ **Lightning Fast** - Powered by [Vite](https://vitejs.dev/)
-- 🎯 **Type-Safe** - Built with [TypeScript](https://www.typescriptlang.org/)
-- 🎨 **Beautiful Styles** - Using [Tailwind CSS](https://tailwindcss.com/)
-- 🛠️ **One-Command Generators** - Create components & pages instantly
-- 📱 **Ready-to-Use Layout** - Clean, responsive sidebar included
-
-## 🚀 Quick Start
-
+1. Clone the repository:
 ```bash
-# Clone the playground
-git clone https://github.com/MohammadShamchi/ai-react-playground.git my-project
+git clone https://github.com/yourusername/ai-react-playground.git
+cd ai-react-playground
+```
 
-# Enter the project
-cd my-project
+2. Run the setup script:
+```bash
+chmod +x setup.sh
+./setup.sh
+```
 
-# Set up your environment
-chmod +x setup.sh && ./setup.sh
-
-# Start experimenting
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-## 🎯 Perfect For
+## Usage 📖
 
-- 🤖 Testing AI-generated components
-- 🚀 Quick prototypes from AI prompts
-- 💡 Experimenting with AI suggestions
-- 📚 Learning React with AI assistance
-- 🎨 Building AI-assisted projects
+### Creating Components
 
-## ⚡️ How to Use with AI
+```bash
+# Using CLI
+npm run create-component Button
 
-1. **Get Component Code**: Ask ChatGPT/Claude to create a React component
-2. **Generate Component**: `npm run create-component MyComponent`
-3. **Paste & Test**: Paste the AI-generated code and see it live
-4. **Iterate**: Refine your prompts and see results instantly
-
-Example prompt for AI:
-```
-Create a React component for a card that displays:
-- A title
-- Description
-- Image
-- Action button
-Use Tailwind CSS for styling.
+# Or use interactive generator
+npm run generate
 ```
 
-## 📁 Clean Structure
+### Creating Pages
+
+```bash
+# Using CLI
+npm run create-page Home
+
+# Or use interactive generator
+npm run generate
+```
+
+### Testing AI-Generated Code
+
+1. Get React component code from your favorite AI
+2. Use the generator to create a new component
+3. Paste the code
+4. See it live in the browser
+5. Iterate and improve
+
+## Documentation 📚
+
+- [Component Documentation](docs/components.md)
+- [Development Guide](docs/development.md)
+- [Troubleshooting](docs/troubleshooting.md)
+
+## Project Structure 🏗️
 
 ```
-.
 ├── src/
-│   ├── components/    # Your AI-generated components
-│   ├── pages/        # Your pages
-│   └── App.tsx       # Main app component
-├── scripts/          # Generator scripts
-└── setup.sh         # One-command setup
+│   ├── components/     # Reusable UI components
+│   ├── pages/         # Page components
+│   ├── assets/        # Static assets
+│   ├── App.tsx        # Main application component
+│   └── main.tsx       # Application entry point
+├── docs/             # Documentation
+├── scripts/          # Development scripts
+└── setup.sh          # Setup script
 ```
 
-## 🤝 Contributing
+## Contributing 🤝
 
-Have ideas to make this AI-testing playground even better? Contributions are welcome!
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-## 📝 License
+## License 📄
 
-MIT License - feel free to experiment with your AI-assisted creations!
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Support 💬
 
-Made with ❤️ and 🤖 by [Mohammad Shamchi](https://github.com/MohammadShamchi)
+- Check the [Troubleshooting Guide](docs/troubleshooting.md)
+- Open an issue
+- Start a discussion
+
+## Roadmap 🗺️
+
+- [ ] Add more component templates
+- [ ] Add testing setup
+- [ ] Add CI/CD pipeline
+- [ ] Add theme support
+- [ ] Add more documentation
+- [ ] Add more examples
+
+## Acknowledgments 🙏
+
+- React Team
+- Vite Team
+- Tailwind CSS Team
+- All contributors
