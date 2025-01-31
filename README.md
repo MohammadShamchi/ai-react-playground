@@ -14,7 +14,7 @@ A pristine React starter with TypeScript & Tailwind. Create components & pages w
 
 ```bash
 # Clone the canvas
-git clone https://github.com/mohammadshamchi/react-clean-canvas.git my-project
+git clone https://github.com/MohammadShamchi/react-clean-canvas.git my-project
 
 # Enter the project
 cd my-project
@@ -70,4 +70,4 @@ MIT License - feel free to paint your masterpiece!
 
 ---
 
-Made with ❤️ by [Mohammad Shamchi](https://github.com/mohammadshamchi)
+Made with ❤️ by [Mohammad Shamchi](https://github.com/MohammadShamchi)
